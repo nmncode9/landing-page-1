@@ -168,3 +168,41 @@ ul a {
     font-weight: 700;
 }
 
+/* CTA section */ 
+
+.container-cta {
+    padding: 4.375rem 0;
+}
+
+.cta-content {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 2.5rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-content a {
+    padding: 10px 32px;
+    text-decoration: none;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: inherit;
+    
+}
+
+.cta-content h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.125rem;
+}
+
+.cta-content p {
+    margin: 0;
+}
