@@ -98,3 +98,49 @@ ul a {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Information section */
+
+.information {
+    color: #1F2937;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 3.125rem 0;
+}
+
+.info-card .square {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    height: 150px;
+    aspect-ratio: 1 / 1;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.125rem;
+    justify-content: center;
+    margin-bottom: 9.375rem;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-card p {
+    width: 17ch;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+}
