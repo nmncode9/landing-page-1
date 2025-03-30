@@ -171,7 +171,7 @@ ul a {
 /* CTA section */ 
 
 .container-cta {
-    padding: 4.375rem 0;
+    padding: 6.5rem 0;
 }
 
 .cta-content {
@@ -190,7 +190,7 @@ ul a {
     border: 3px solid #F9FAF8;
     border-radius: 10px;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 1.125;
     font-weight: 600;
     cursor: pointer;
     color: inherit;
@@ -205,4 +205,16 @@ ul a {
 
 .cta-content p {
     margin: 0;
+}
+
+/* Footer styles */ 
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    padding: 2rem;
 }
